@@ -1,0 +1,1 @@
+export * as vant from './vant'

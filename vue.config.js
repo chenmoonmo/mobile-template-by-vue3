@@ -10,6 +10,7 @@ module.exports = {
       .set('@', resolve('./src/'))
       .set('assets', resolve('./src/assets/'))
       .set('utils', resolve('./src/utils'))
+      .set('plugins', resolve('./src/plugins'))
       .set('store', resolve('./src/store/'))
       .set('components', resolve('./src/components/'))
       .set('views', resolve('./src/views/'))
