@@ -7,3 +7,9 @@ export default {
   name: "Home",
 };
 </script>
+
+<style lang="scss" scoped>
+span {
+  color: $cf-light;
+}
+</style>

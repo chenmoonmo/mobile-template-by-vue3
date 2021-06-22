@@ -15,6 +15,14 @@ module.exports = {
       .set('views', resolve('./src/views/'))
       .set('api', resolve('./src/network/'))
   },
+  css: {
+    loaderOptions: {
+      // 引入全局scss变量
+      sass: {
+        additionalData: `@import "assets/styles/_variables.scss";`
+      }
+    }
+  },
   devServer: {
     proxy: {
       '/api': {
